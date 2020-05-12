@@ -1,0 +1,24 @@
+{% extends "bootstrap/base.html" %}
+
+{% block content %}
+<h1>hello</h1>
+
+<div class="alert alert-success" role="alert">
+  Green!
+</div>
+<div class="alert alert-danger" role="alert">
+  Red!
+</div>
+<div class="alert alert-warning" role="alert">
+  Yellow!
+</div>
+<div class="alert alert-info" role="alert">
+  Blue!
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+
+{% endblock %}
